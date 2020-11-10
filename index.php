@@ -63,7 +63,7 @@ $subject[1] ['stains'] = $teethstains[0];
 
 ?>
 
-<h1> Zdravý zubů </h1>
+<h1> Teeth tester </h1>
 
 <?=print_r($subject[1])?>
 
