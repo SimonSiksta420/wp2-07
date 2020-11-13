@@ -66,8 +66,22 @@ $subject[0] ['stains'] = $teethstains[0];
 <h1> Teeth tester </h1>
 
 <?php
-foreach($subject[0] as $x => $x_value) {
-  echo $x . ": " . $x_value;
+foreach($subject[0] as $a => $a_value) {
+  echo $x . ": " . $a_value;
+  echo "<br>";
+}
+?>
+
+<?php
+foreach($subject[0] as $b => $b_value) {
+  echo $x . ": " . $b_value;
+  echo "<br>";
+}
+?>
+
+<?php
+foreach($subject[0] as $c => $c_value) {
+  echo $x . ": " . $c_value;
   echo "<br>";
 }
 ?>
