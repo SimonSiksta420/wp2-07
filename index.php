@@ -53,19 +53,24 @@ $name[3] ['fullname'] = "Jesse Pinkman";
 $name[4] ['fullname'] = "Walter White";
 $name[5] ['fullname'] = "Walter White Junior";
 
-$subject[1] ['fullname'] = $name[0];
-$subject[1] ['teethnumber'] = $teethcount[0];
-$subject[1] ['bracers'] = $brace[5];
-$subject[1] ['toothbrushes'] = $toothbrush[3];
-$subject[1] ['gumhealth']  = $gum[0];
-$subject[1] ['cavityonteeth'] = $cavity[0];
-$subject[1] ['stains'] = $teethstains[0];
+$subject[0] ['fullname'] = $name[0];
+$subject[0] ['teethnumber'] = $teethcount[0];
+$subject[0] ['bracers'] = $brace[5];
+$subject[0] ['toothbrushes'] = $toothbrush[3];
+$subject[0] ['gumhealth']  = $gum[0];
+$subject[0] ['cavityonteeth'] = $cavity[0];
+$subject[0] ['stains'] = $teethstains[0];
 
 ?>
 
 <h1> Teeth tester </h1>
 
-<?=print_r($subject[1])?>
+<?php
+foreach($subject[0] as $x => $x_value) {
+  echo $x . ": " . $x_value;
+  echo "<br>";
+}
+?>
 
   </body>
 </html>
