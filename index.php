@@ -67,21 +67,21 @@ $subject[0] ['stains'] = $teethstains[0];
 
 <?php
 foreach($subject[0] as $a => $a_value) {
-  echo $x . ": " . $a_value;
+  echo $a . ": " . $a_value;
   echo "<br>";
 }
 ?>
 
 <?php
 foreach($subject[0] as $b => $b_value) {
-  echo $x . ": " . $b_value;
+  echo $b . ": " . $b_value;
   echo "<br>";
 }
 ?>
 
 <?php
 foreach($subject[0] as $c => $c_value) {
-  echo $x . ": " . $c_value;
+  echo $c . ": " . $c_value;
   echo "<br>";
 }
 ?>
