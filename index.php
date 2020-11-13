@@ -4,56 +4,56 @@
   </head>
   <body>
  <?php
-$teethcount[0] ['teethnumber'] = "32";
-$teethcount[1] ['teethnumber'] = "30";
-$teethcount[2] ['teethnumber'] = "28";
-$teethcount[3] ['teethnumber'] = "25";
-$teethcount[4] ['teethnumber'] = "22";
-$teethcount[5] ['teethnumber'] = "19";
+$teethcount[0]  = "32";
+$teethcount[1]  = "30";
+$teethcount[2]  = "28";
+$teethcount[3]  = "25";
+$teethcount[4]  = "22";
+$teethcount[5]  = "19";
 
-$teethstains[0] ['stains'] = "Bíle zuby";
-$teethstains[1] ['stains'] = "Trochu žluté zuby";
-$teethstains[2] ['stains'] = "Středně žluté zuby";
-$teethstains[3] ['stains'] = "Žluté zuby";
-$teethstains[4] ['stains'] = "Velice žluté zuby";
-$teethstains[5] ['stains'] = "Neexistující zuby";
+$teethstains[0]  = "Bíle zuby";
+$teethstains[1]  = "Trochu žluté zuby";
+$teethstains[2]  = "Středně žluté zuby";
+$teethstains[3]  = "Žluté zuby";
+$teethstains[4]  = "Velice žluté zuby";
+$teethstains[5]  = "Neexistující zuby";
 
-$cavity[0] ['cavityonteeth'] = "No cavity";
-$cavity[1] ['cavityonteeth'] = "Small amout cavity";
-$cavity[2] ['cavityonteeth'] = "Visible cavities";
-$cavity[3] ['cavityonteeth'] = "Huge amout of cavities";
-$cavity[4] ['cavityonteeth'] = "Cavities on every tooth";
-$cavity[5] ['cavityonteeth'] = "Teeth non existent";
+$cavity[0]  = "No cavity";
+$cavity[1]  = "Small amout cavity";
+$cavity[2]  = "Visible cavities";
+$cavity[3]  = "Huge amout of cavities";
+$cavity[4]  = "Cavities on every tooth";
+$cavity[5]  = "Teeth non existent";
  
-$gum[0] ['gumhealth']  = "Healthy gums";
-$gum[1] ['gumhealth']  = "Ok gums";
-$gum[2] ['gumhealth']  = "Receding gums";
-$gum[3] ['gumhealth']  = "Bleeding gums";
-$gum[4] ['gumhealth']  = "Gingivitis";
-$gum[5] ['gumhealth']  = "Periodontitis";
+$gum[0]   = "Healthy gums";
+$gum[1]   = "Ok gums";
+$gum[2]   = "Receding gums";
+$gum[3]   = "Bleeding gums";
+$gum[4]   = "Gingivitis";
+$gum[5]   = "Periodontitis";
 
-$toothbrush[0] ['toothbrushes'] = "Philips Sonicare ProtectiveClean 4500";
-$toothbrush[1] ['toothbrushes'] = "Philips Sonicare ProtectiveClean 6100";
-$toothbrush[2] ['toothbrushes'] = "Oral-B PRO 790";
-$toothbrush[3] ['toothbrushes'] = "Oral-B iO 8 Black";
-$toothbrush[4] ['toothbrushes'] = "ORAL-B GENIUS X";
-$toothbrush[5] ['toothbrushes'] = "ORAL-B SMART 6 6000N";
+$toothbrush[0] = "Philips Sonicare ProtectiveClean 4500";
+$toothbrush[1] = "Philips Sonicare ProtectiveClean 6100";
+$toothbrush[2] = "Oral-B PRO 790";
+$toothbrush[3] = "Oral-B iO 8 Black";
+$toothbrush[4] = "ORAL-B GENIUS X";
+$toothbrush[5] = "ORAL-B SMART 6 6000N";
 
-$brace[0] ['bracers'] = "Full bracers";
-$brace[1] ['bracers'] = "Half bracers";
-$brace[2] ['bracers'] = "Four bracers";
-$brace[3] ['bracers'] = "Three bracers";
-$brace[4] ['bracers'] = "Two bracers";
-$brace[5] ['bracers'] = "No bracers";
+$brace[0]  = "Full bracers";
+$brace[1]  = "Half bracers";
+$brace[2]  = "Four bracers";
+$brace[3]  = "Three bracers";
+$brace[4]  = "Two bracers";
+$brace[5]  = "No bracers";
 
-$name[0] ['fullname'] = "Martin Ledl";
-$name[1] ['fullname'] = "Sorin Eni";
-$name[2] ['fullname'] = "Sismon Siksta";
-$name[3] ['fullname'] = "Jesse Pinkman";
-$name[4] ['fullname'] = "Walter White";
-$name[5] ['fullname'] = "Walter White Junior";
+$name[0]  = "Martin Ledl";
+$name[1]  = "Sorin Eni";
+$name[2]  = "Sismon Siksta";
+$name[3]  = "Jesse Pinkman";
+$name[4]  = "Walter White";
+$name[5]  = "Walter White Junior";
 
-$subject[0] ['fullname'] = $name[0];
+$subject[0] ['fullname']= $name[0];
 $subject[0] ['teethnumber'] = $teethcount[0];
 $subject[0] ['bracers'] = $brace[5];
 $subject[0] ['toothbrushes'] = $toothbrush[3];
@@ -61,6 +61,21 @@ $subject[0] ['gumhealth']  = $gum[0];
 $subject[0] ['cavityonteeth'] = $cavity[0];
 $subject[0] ['stains'] = $teethstains[0];
 
+$subject[1] ['fullname'] = $name[1];
+$subject[1] ['teethnumber'] = $teethcount[1];
+$subject[1] ['bracers'] = $brace[5];
+$subject[1] ['toothbrushes'] = $toothbrush[5];
+$subject[1] ['gumhealth']  = $gum[0];
+$subject[1] ['cavityonteeth'] = $cavity[0];
+$subject[1] ['stains'] = $teethstains[0];
+
+$subject[2] ['fullname'] = $name[2];
+$subject[2] ['teethnumber'] = $teethcount[0];
+$subject[2] ['bracers'] = $brace[5];
+$subject[2] ['toothbrushes'] = $toothbrush[2];
+$subject[2] ['gumhealth']  = $gum[0];
+$subject[2] ['cavityonteeth'] = $cavity[0];
+$subject[2] ['stains'] = $teethstains[0];
 ?>
 
 <h1> Teeth tester </h1>
@@ -71,20 +86,20 @@ foreach($subject[0] as $a => $a_value) {
   echo "<br>";
 }
 ?>
-
+<br><br>
 <?php
-foreach($subject[0] as $b => $b_value) {
+foreach($subject[1] as $b => $b_value) {
   echo $b . ": " . $b_value;
   echo "<br>";
 }
 ?>
-
+<br><br>
 <?php
-foreach($subject[0] as $c => $c_value) {
+foreach($subject[2] as $c => $c_value) {
   echo $c . ": " . $c_value;
   echo "<br>";
 }
 ?>
-
+<br><br>
   </body>
 </html>
