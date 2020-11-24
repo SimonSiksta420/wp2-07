@@ -4,12 +4,6 @@
   </head>
   <body>
  <?php
-$teethcount[0]  = "32";
-$teethcount[1]  = "30";
-$teethcount[2]  = "28";
-$teethcount[3]  = "25";
-$teethcount[4]  = "22";
-$teethcount[5]  = "19";
 
 $teethstains[0]  = "Bíle zuby";
 $teethstains[1]  = "Trochu žluté zuby";
@@ -46,31 +40,24 @@ $brace[3]  = "Three bracers";
 $brace[4]  = "Two bracers";
 $brace[5]  = "No bracers";
 
-$name[0]  = "Martin Ledl";
-$name[1]  = "Sorin Eni";
-$name[2]  = "Sismon Siksta";
-$name[3]  = "Jesse Pinkman";
-$name[4]  = "Walter White";
-$name[5]  = "Walter White Junior";
-
-$subject[0] ['fullname']= $name[0];
-$subject[0] ['teethnumber'] = $teethcount[0];
+$subject[0] ['fullname']= "Šimon Siksta";
+$subject[0] ['teethnumber'] = "32";
 $subject[0] ['bracers'] = $brace[5];
 $subject[0] ['toothbrushes'] = $toothbrush[3];
 $subject[0] ['gumhealth']  = $gum[0];
 $subject[0] ['cavityonteeth'] = $cavity[0];
 $subject[0] ['stains'] = $teethstains[0];
 
-$subject[1] ['fullname'] = $name[1];
-$subject[1] ['teethnumber'] = $teethcount[1];
+$subject[1] ['fullname'] = "Martin Lédl";
+$subject[1] ['teethnumber'] = "31";
 $subject[1] ['bracers'] = $brace[5];
 $subject[1] ['toothbrushes'] = $toothbrush[5];
 $subject[1] ['gumhealth']  = $gum[0];
 $subject[1] ['cavityonteeth'] = $cavity[0];
 $subject[1] ['stains'] = $teethstains[0];
 
-$subject[2] ['fullname'] = $name[2];
-$subject[2] ['teethnumber'] = $teethcount[0];
+$subject[2] ['fullname'] = "Walter White";
+$subject[2] ['teethnumber'] = "30";
 $subject[2] ['bracers'] = $brace[5];
 $subject[2] ['toothbrushes'] = $toothbrush[2];
 $subject[2] ['gumhealth']  = $gum[0];
